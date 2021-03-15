@@ -28,7 +28,9 @@
 
 </script>
 
-<div class= "grid grid-row-1 gap-4 pt-4 pl-4">
+<div class= "pt-4">
+
+
 	<Card {...jacob}></Card>
 	<Card {...astro}></Card>
 	<Card {...melkey}></Card>

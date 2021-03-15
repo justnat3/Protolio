@@ -1,17 +1,40 @@
 <script>
   import Item from "./Item.svelte";
-    const tbsh  = {
-        project_name: "Type-Bash-Shell",
-        short_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus luctus tellus sed tincidunt. Pellentesque felis risus, accumsan sit amet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus dapibus luctus tellus sed tincidunt. Pellentesque felis risus, accumsan sit amet. ",
-        ref_to_project: "https://github.com/justnat3/tbsh",
-    }
+  const tbsh = {
+    project_name: "Type-Bash-Shell",
+    short_description:
+      "The main idea for this project is to have some sort of strict type checking in bash. This is more aimed at being mostly different to bash but not entirely removed.",
+    ref_to_project: "https://github.com/justnat3/tbsh",
+  };
 
+  const Protolio = {
+    project_name: "Protolio",
+    short_description:
+      "This project is dedicated to this page! This is just to show that to show off my skills as a developer ",
+    ref_to_project: "https://github.com/justnat3/Protolio",
+  };
+
+  const win32edit = {
+    project_name: "win32-edit",
+    short_description:
+      "This is a native editor for powershell I made in C# the idea was that without using a nix-based editor there really were no in terminal options for editing text",
+    ref_to_project: "https://github.com/justnat3/win32-edit",
+  };
+
+  const goShutter = {
+    project_name: "go-shutter",
+    short_description:
+      "This is a photo de-duplication program I made for my mother in golang. She needed a way to find a large amount of duplicate pictures across mutliple directories and this did the trick",
+    ref_to_project: "https://github.com/justnat3/goShutter",
+  };
 </script>
 
-<div
-  class="flex flex-col bg-white max-w-sm px-6 py-4 mx-auto rounded-lg shadow-md"
->
-  <ul class="-mx-4">
-    <Item {...tbsh}></Item>
-  </ul>
+<h1 class="flex justify-center mb-0 mt-10 text-unbleached text-3xl">
+  Github Projects
+</h1>
+<div class="">
+  <Item {...Protolio} />
+  <Item {...tbsh} />
+  <Item {...win32edit} />
+  <Item {...goShutter} />
 </div>

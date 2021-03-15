@@ -8,14 +8,11 @@
 </script>
 
 <Nav />
-<div class=" absolute right-0">
-  <Git />
-</div>
 
-<div>
-  <Blog />
+<div class="grid grid-cols-2 grid-row-1 container mx-auto">
+  <div> <Blog /> </div>
+  <div> <Git /> </div>
 </div>
-
 <Footer />
 
 <style global lang="postcss">

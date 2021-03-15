@@ -8,15 +8,18 @@
     export let date;
 </script>
 
-<div class="max-w-4xl px-10 py-6 bg-unbleached rounded-lg shadow-xl static bottom-0 ">
+<div class="max-w-4xl px-10 mt-6 py-6 bg-unbleached-light rounded-lg shadow-xl">
   <div class="flex justify-between items-center">
-    <span class="font-light text-gray-600">{date}</span><a
+    <span class="font-light text-gray-600">{date}</span>
+    <!-- svelte-ignore a11y-invalid-attribute -->
+    <a
       href="#"
       class="px-2 py-1 bg-gray-800 text-unbleached-light font-bold rounded hover:bg-gray-500"
       >{tag}</a
     >
   </div>
   <div class="mt-2">
+    <!-- svelte-ignore a11y-invalid-attribute -->
     <a href="#" class="text-2xl text-liver-dark font-bold hover:underline"
       >{title}</a
     >
@@ -27,6 +30,7 @@
   <div class="flex justify-between items-center mt-4">
     <a href="{reference_to_page}" class="text-rubine hover:no-underline">Read more</a>
     <div>
+    <!-- svelte-ignore a11y-invalid-attribute -->
       <a href="#" class="flex items-center"
         ><img
           src="{author_picture}"

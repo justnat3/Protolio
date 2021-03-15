@@ -1,9 +1,11 @@
-<nav class="bg-liver-dark px-6 py-4 shadow">
+<nav class="bg-liver-dark px-6 py-4 shadow container mx-auto">
   <div
     class="flex flex-col container mx-auto md:flex-row md:items-center md:justify-between"
   >
     <div class="flex justify-between items-center">
       <div>
+        <!-- svelte-ignore a11y-invalid-attribute -->
+
         <a href="#" class="text-unbleached-light text-xl font-bold md:text-2xl"
           >Nathan Reed</a
         >
@@ -22,15 +24,25 @@
       </div>
     </div>
     <div class="md:flex flex-col md:flex-row md:-mx-4 hidden">
+      <!-- svelte-ignore a11y-invalid-attribute -->
+
       <a
         href="#"
         class="no-underline text-unbleached-light hover:text-red-500  md:mx-4 md:my-0"
         >Home</a
       >
-      <a href="#" class=" text-unbleached-light hover:text-blue-500 md:mx-4 md:my-0"
+      <!-- svelte-ignore a11y-invalid-attribute -->
+
+      <a
+        href="#"
+        class=" text-unbleached-light hover:text-blue-500 md:mx-4 md:my-0"
         >Blog</a
       >
-      <a href="#" class=" text-unbleached-light hover:text-blue-500 md:mx-4 md:my-0"
+      <!-- svelte-ignore a11y-invalid-attribute -->
+
+      <a
+        href="#"
+        class=" text-unbleached-light hover:text-blue-500 md:mx-4 md:my-0"
         >About us</a
       >
     </div>

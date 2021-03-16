@@ -8,4 +8,4 @@
 ### What is there for me?
 I do store my latest work on this site, as well as blogs. Just things that I have run(problems, cool projects, etc)
 
-![image](https://user-images.githubusercontent.com/58314490/111106416-1950b000-8523-11eb-8e76-81b6d6946846.png)
+![image](https://user-images.githubusercontent.com/58314490/111260839-85004f00-85ef-11eb-8003-499d907a03e3.png)

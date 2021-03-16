@@ -1,4 +1,4 @@
-<footer class="absolute w-screen bottom-0  bg-liver text-gray-100">
+<footer class="overflow-hidden static w-full left-0 bottom-0 mt-20 bg-liver text-gray-100">
   <!-- here we give it the same settings as the nav keeping the padding so that we drives inward? -->
     <div
     class="flex flex-col justify-between md:flex-row w-screen px-6 py-4 container mx-auto"

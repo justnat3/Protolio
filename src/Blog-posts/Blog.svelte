@@ -1,14 +1,6 @@
 <script>
 	import Card from "./card/Card.svelte";
 	import "tailwindcss/tailwind.css";
-	const jacob = {
-		date: "03/14/2021",
-		title: "Jacob getting pegged",
-		body: "Peggers got jacob in a strangle hoold and now he is screwed.",
-		author: "MelkCheeks",
-		tag: "pegged",
-		author_picture: "https://metro.co.uk/wp-content/uploads/2019/03/XX-Men-on-what-its-like-to-be-pegged-f158.jpg?quality=90&strip=all&crop=0px%2C0px%2C2000px%2C1051px&resize=1200%2C630"
-	}
 	const astro = {
 		date: "11/20/1998",
 		title: "Astro gets slammed by music",
@@ -26,12 +18,23 @@
 		author_picture: "https://i.cbc.ca/1.4477957.1515441883!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/chad-gaborieau.jpg"
 	}
 
+	const optimism = {
+		date: "02/25/1822",
+		title: "Walking w/ Optimism",
+		body: "Optimism is almost like getting punched in the face and moonwalking with einstein at the same time",
+		author: "Widabeast",
+		tag: "chadbeast", // tag should be array of tags
+		author_picture: "https://ichef.bbci.co.uk/news/1024/cpsprodpb/55D5/production/_99337912_hi005100653.jpg"
+	}
+
+	
+
 </script>
-
+<h1 class="flex mb-0 mt-10 text-unbleached text-3xl">
+  Blogs
+</h1>
 <div class= "pt-4">
-
-
-	<Card {...jacob}></Card>
+	<Card {...optimism}></Card>
 	<Card {...astro}></Card>
 	<Card {...melkey}></Card>
 </div>

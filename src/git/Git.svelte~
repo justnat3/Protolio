@@ -33,7 +33,7 @@
   };
 </script>
 
-<h1 class="flex mb-3 mt-11 text-unbleached text-3xl">
+<h1 class="flex mb-3 mt-10 text-unbleached text-3xl">
   Github Projects
 </h1>
 <div class="">

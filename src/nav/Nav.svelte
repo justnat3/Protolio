@@ -25,26 +25,26 @@
     </div>
     <div class="md:flex flex-col md:flex-row md:-mx-4 hidden">
       <!-- svelte-ignore a11y-invalid-attribute -->
-
+<!-- 
       <a
         href="#"
         class="no-underline text-unbleached-light hover:text-red-500  md:mx-4 md:my-0"
         >Home</a
-      >
+      > -->
       <!-- svelte-ignore a11y-invalid-attribute -->
-
+<!-- 
       <a
         href="#"
         class=" text-unbleached-light hover:text-blue-500 md:mx-4 md:my-0"
         >Blog</a
-      >
+      > -->
       <!-- svelte-ignore a11y-invalid-attribute -->
-
+<!-- 
       <a
         href="#"
         class=" text-unbleached-light hover:text-blue-500 md:mx-4 md:my-0"
         >About us</a
-      >
+      > -->
     </div>
   </div>
 </nav>
